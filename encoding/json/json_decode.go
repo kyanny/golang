@@ -9,7 +9,7 @@ type Book struct {
 	Title string
 	Issue uint
 	Authors []string
-	Publishers []Publisher
+	Publisher Publisher
 }
 
 type Publisher struct {
